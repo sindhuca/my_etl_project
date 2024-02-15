@@ -1,0 +1,4 @@
+'sindhu',50000
+'Mahesh',80000
+'Kavya',15000
+'Aniketh',30000

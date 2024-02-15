@@ -1,0 +1,7 @@
+data_warehouse.claims2024
+claim_id int,
+name varchar(100),
+gender  varchar(10),
+clm_eff_date varchar(50),
+clm_term_date varchar(50)
+status varchar(50)

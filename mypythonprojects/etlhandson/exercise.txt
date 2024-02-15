@@ -1,0 +1,5 @@
+select * from table1
+where col = abc;
+update table1 set col = False
+where col1 = 123;
+delete from table;

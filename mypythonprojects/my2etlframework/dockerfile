@@ -1,0 +1,10 @@
+FROM python:alpine
+COPY . /my2etlframework
+WORKDIR /my2etlframework
+# RUN PATH="/my2etlframework/venv/bin:${PATH}"
+# ENV VIRTUAL_ENV=/my2etlframework/venv
+# ENTRYPOINT [ "/my2etlframework/venv/bin/activate" "python main.py" ]
+
+CMD "source venv/bin/activate && python main.py"
+
+# CMD python /pythonoops/class_exmp.py
